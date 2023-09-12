@@ -1,0 +1,32 @@
+  <style>
+    /* Estilos personalizados para la barra de navegación de derecha */
+    .navbar {
+        flex-direction: column;
+        height: 100vh;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-left: 0;
+        padding-bottom: 0;
+        background-color: #f8f9fa;
+    }
+
+    .navbar-brand {
+        margin-bottom: auto;
+    }
+
+    .navbar-toggler {
+        order: -1;
+    }
+
+    .navbar-collapse {
+        margin-top: auto;
+    }
+
+    .nav-item {
+        margin-right: auto; /* Cambia margin-left a margin-right */
+    }
+    </style>

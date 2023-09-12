@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taza Secreta</title>
+    <!-- Agrega enlaces a los archivos CSS de Bootstrap y cualquier otro estilo personalizado que desees -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+
+</head>
+
+<body>
+    <!-- Barra de navegación responsiva -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Taza Secreta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nuestra-historia">Nuestra Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cafe">Café</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#donde-encontrarnos">Dónde Encontrarnos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portada -->
+    <section id="portada">
+        <div class="container">
+            <div class="row">
+                <!-- Columna Izquierda (Texto) -->
+                <div class="col-md-3 text-center d-flex align-items-center justify-content-center">
+
+                    <div class="cafe-recuadro">
+                        <h1 class="text-center texto-blanco">¡Bienvenido a Taza Secreta!</h1>
+                        <p class="text-center texto-blanco">
+                            En nuestro rincón del café, te invitamos a disfrutar de una experiencia única. Sumérgete en el aroma tentador del 
+                            café recién preparado y siente cómo cada taza te transporta a un mundo de sabores. 
+                            En Taza Secreta estamos comprometidos a brindarte la mejor taza de café y un ambiente cálido que 
+                            te hará sentir como en casa. ¡Ven y únete a nosotros!
+                        </p>
+                    </div>
+                </div>
+                <!-- Columna Derecha (Imagen) -->
+                <div class="col-md-9 text-center d-flex align-items-center justify-content-center">
+                    <div class="mi-div-portada">
+                        <img src="portada2.png" alt="Portada" class="img-fluid" width="1300" height="800">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nuestra Historia -->
+    <section id="nuestra-historia">
+        <div class="container">
+            <div class="row">
+                <!-- Subtítulo "Nuestra Historia" alineado a la izquierda -->
+                <h3 class="text-left">Nuestra Historia </h3>
+                <!-- Columna Izquierda (Imagen) -->
+                <div class="col-md-7 d-flex align-items-center justify-content-center">
+                    <img src="iniciocafeteria.png" alt="Imagen de Nuestra Historia" class="img-fluid" width="1200" height="800">
+                </div>
+                <!-- Columna Derecha (Texto) -->
+                <div class="col-md-5 d-flex flex-column align-items-center justify-content-center">
+                    <!-- Espacio vertical -->
+                    <div style="height: 40px;"></div>
+                    <!-- Subtítulo "CÓMO EMPEZAMOS?" alineado al centro -->
+                    <h4 class="text-center">CÓMO EMPEZAMOS?</h4>
+                    <p class="text-center">
+                        En el año 2001, un grupo de amigos decidieron compartir su amor por el café con el mundo. Con una modesta tostadora y 
+                        una visión, abrieron las puertas de su cafetería. A lo largo de los años, su pasión por el café y el compromiso con la 
+                        calidad los convirtieron en un punto de referencia en la comunidad. La historia de cómo comenzaron en el 2001 es la 
+                        historia de un sueño hecho realidad.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Café -->
+    <!-- Primera Fila -->
+    <section id="cafe">
+        <div class="container">
+            <div class="row">
+                <h3 class="text-left">Cafe </h3>
+                <h2 class="text-center">NUESTROS TIPOS DE CAFÉ </h2>
+                <!-- Columna 1 -->
+                <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                    <img src="cafeEspresso.png" alt="Café 1" class="img-fluid">
+                    <h4>Café Espresso</h4>
+                    <p>Un café fuerte y concentrado con un sabor intenso.</p>
+                </div>
+                <!-- Columna 2 -->
+                <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                    <img src="cafeLatte.png" alt="Café 2" class="img-fluid">
+                    <h4>Café Latte</h4>
+                    <p>Un café suave y cremoso con leche caliente.</p>
+                </div>
+                <!-- Columna 3 -->
+                <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                    <img src="cafeMocha.png" alt="Café 3" class="img-fluid">
+                    <h4>Café Mocha</h4>
+                    <p>Una deliciosa mezcla de café, chocolate y leche.</p>
+                </div>
+                <!-- Columna 4 -->
+                <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                    <img src="cafeDescafeinado.png" alt="Café 4" class="img-fluid">
+                    <h4>Café Descafeinado</h4>
+                    <p>El mismo sabor y aroma del café, pero sin cafeína.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Segunda Fila -->
+    <section id="cafe">
+        <div class="container">
+            <div class="row">
+                <!-- Columna 1 -->
+                <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                    <img src="cafeAmericano.png" alt="Café 5" class="img-fluid">
+                    <h4>Café Americano</h4>
+                    <p>Un café suave y diluido, perfecto para tomar largo.</p>
+                </div>
+                <!-- Columna 2 -->
+                <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                    <img src="cafeCortado.png" alt="Café 6" class="img-fluid">
+                    <h4>Café Cortado</h4>
+                    <p>Un café con una pequeña cantidad de leche.</p>
+                </div>
+                <!-- Columna 3 -->
+                <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                    <img src="cafeCapuccino.png" alt="Café 7" class="img-fluid">
+                    <h4>Café Cappuccino</h4>
+                    <p>Un café con una capa de espuma de leche que añade una textura suave.</p>
+                </div>
+                <!-- Columna 4 -->
+                <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                    <img src="cafeIrlandes.png" alt="Café 8" class="img-fluid">
+                    <h4>Café Irlandés</h4>
+                    <p>Un café con whisky y crema batida, ¡muy reconfortante!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección Menú -->
+    <section id="menu">
+        <div class="container">
+            <h2 class="text-left">MENÚ</h2>
+            <h2 class="text-center">CAFÉ CALIENTE</h2>
+            <!-- Fila 1: Café Caliente -->
+            <div class="row">
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuEspresso.jpg" alt="Café Caliente" class="img-fluid">
+                    <h4>Cafe Espresso</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuLatte.jpg" alt="Café Caliente" class="img-fluid">
+                    <h4>Cafe Latte</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuMocha.jpg" alt="Café Caliente" class="img-fluid">
+                    <h4>Cafe Mocha</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuDescafeinado.jpg" alt="Café Caliente" class="img-fluid">
+                    <h4>Cafe Descafeinado</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuAmericano.jpg" alt="Café Caliente" class="img-fluid">
+                    <h4>Cafe Americano</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuCortado.jpg" alt="Café Caliente" class="img-fluid">
+                    <h4>Cafe Cortado</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuCapuccino.jpg" alt="Café Caliente" class="img-fluid">
+                    <h4>Cafe Capuccino</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuIrlandes.jpg" alt="Café Caliente" class="img-fluid">
+                    <h4>Cafe Irlandés</h4>
+                    <p>10 Bs.</p>
+                </div>
+            </div>
+            <h2 class="text-center">CAFÉ FRÍO</h2>
+            <!-- Fila 2: Café Frío -->
+            <div class="row">
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuICoffe.png" alt="Café Frío" class="img-fluid">
+                    <h4>Iced Coffe</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuILatte.jpg" alt="Café Frío" class="img-fluid">
+                    <h4>Iced Latte</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuIMocha.jpg.crdownload" alt="Café Frío" class="img-fluid">
+                    <h4>Iced Mocha</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuIAmericano.jpg" alt="Café Frío" class="img-fluid">
+                    <h4>Iced Americano</h4>
+                    <p>10 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="menuFrapuccino.jpg" alt="Café Frío" class="img-fluid">
+                    <h4>Frappucino</h4>
+                    <p>10 Bs.</p>
+                </div>
+            </div>
+            <h2 class="text-center">PASTELERIA</h2>
+            <!-- Fila 3: Pastelería -->
+            <div class="row">
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="pasRollo.jpg" alt="Pastelería" class="img-fluid">
+                    <h4>Rollo de Canela</h4>
+                    <p>15 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="pasTiramisu.jpg" alt="Café Frío" class="img-fluid">
+                    <h4>Tiramisu</h4>
+                    <p>15 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="pasZanahoria.jpg" alt="Café Frío" class="img-fluid">
+                    <h4>Torta de Zanahoria</h4>
+                    <p>15 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="pasChocolate.jpg" alt="Café Frío" class="img-fluid">
+                    <h4>Torta de Chocolate</h4>
+                    <p>15 Bs.</p>
+                </div>
+                <div class="col-md-2 offset-md-1 text-center">
+                    <img src="pasEmpanada.jpg" alt="Café Frío" class="img-fluid">
+                    <h4>Empanadas</h4>
+                    <p>15 Bs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección Dónde Encontrarnos -->
+    <section id="donde-encontrarnos">
+        <div class="container">
+            <div class="row">
+            <h2>Dónde Encontrarnos?</h2>
+                <!-- Columna Izquierda (Descripción y Redes Sociales) -->
+                <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                    <p>
+                        En Taza Secreta, nos encanta recibir a nuevos clientes y crear momentos especiales con cada visita. 
+                        Nuestra pasión por el café y el ambiente acogedor que ofrecemos hacen que cada experiencia sea 
+                        única y memorable.
+                    </p>
+                    <!-- Iconos de redes sociales con enlaces a tus perfiles -->
+                    <div class="redes-sociales">
+                        <a href="https://www.instagram.com/tazasecreta" target="_blank">
+                            <img src="instagram.png" alt="Instagram">
+                        </a>
+                        <a href="https://www.facebook.com/tazasecreta" target="_blank">
+                            <img src="facebook.png" alt="Facebook">
+                        </a>
+                        <!-- Agrega más iconos de redes sociales si es necesario -->
+                    </div>
+                </div>
+                <!-- Columna Derecha (Google Maps) -->
+                <div class="col-md-6">
+                    <!-- Mapa de Google Maps con un enlace a Google Maps -->
+                    <iframe src="https://www.google.com/maps/place/Cd+Del+Nino,+Cochabamba/@-17.3370781,-66.2047111,17z/data=!3m1!4b1!4m6!3m5!1s0x93e37511eab17b5f:0xad48df72fbdf00f4!8m2!3d-17.3370825!4d-66.2024984!16s%2Fg%2F11g0ldrb0n?entry=ttu" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Agrega enlaces a los archivos JavaScript de Bootstrap y cualquier otro script personalizado que desees -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
