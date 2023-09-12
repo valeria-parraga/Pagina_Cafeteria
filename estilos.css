@@ -1,3 +1,14 @@
+/* ---------------------------------BARRA DE NAVEGACIÓN FIJA------------------------------- */
+/* Estilo para la barra de navegación fija */
+#barra-navegacion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Asegura que la barra esté por encima de otros elementos */
+    height: 60px; /* Ajusta la altura de tu barra de navegación */
+}
+
 /* ---------------------------------PORTADA------------------------------- */
 /* Estilos específicos para la imagen de la portada */
 #portada {
@@ -149,20 +160,42 @@
     padding: 50px; /* Espaciado interno */
 }
 
-/* Estilos para la descripción */
+/* Estilos para el título "DÓNDE ENCONTARNOS?" */
+#donde-encontrarnos h2 {
+    color: #120c0b; /* Color del texto del título */
+    font-size: 36px; /* Tamaño de fuente del título */
+    text-align: left; /* Alineación del título a la izquierda */
+    margin-bottom: 20px; /* Espacio inferior */
+    margin-top: 0; /* Espacio superior */
+}
+
+/* Estilos para la columna izquierda (Descripción y Redes Sociales) */
+#donde-encontrarnos .col-md-6 {
+    color: #120c0b; /* Color del texto */
+}
+
+/* Estilos para el subtítulo "¡Nos Encanta Tener Nuevos Clientes!" */
+#donde-encontrarnos h3 {
+    font-size: 30px; /* Tamaño de fuente del subtítulo */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilos para el párrafo de descripción */
 #donde-encontrarnos .descripcion {
-    font-size: 24px; /* Tamaño de fuente para la descripción */
-    margin-bottom: 20px; /* Espacio inferior entre la descripción y las redes sociales */
+    font-size: 24px; /* Tamaño de fuente de la descripción */
+    margin-top: 5px; /* Espacio superior */
+    text-align:center;
 }
 
-/* Estilos para los íconos de redes sociales */
+/* Estilos para las redes sociales */
 #donde-encontrarnos .redes-sociales img {
-    max-width: 40px; /* Tamaño máximo de los íconos */
-    margin: 0 10px; /* Espacio entre los íconos */
+    width: 50px; /* Ancho de las imágenes de redes sociales */
+    margin-right: 30px; /* Espacio derecho entre las imágenes */
+    margin-top: 60px; /* Espacio superior */
 }
 
-/* Estilos para el mapa de Google */
-#donde-encontrarnos iframe {
-    max-width: 100%; /* Ajustar el mapa al ancho del contenedor */
-    height: 400px; /* Altura del mapa */
+/* Estilos para la columna derecha (Video) */
+#donde-encontrarnos video {
+    max-width: 100%; /* Ancho máximo del video */
+    padding: 10px; /* Espaciado interno */
 }
